@@ -1,0 +1,961 @@
+.header {
+    display: flex;
+}
+
+
+.img-logo {
+    height: 114px;
+    width: 190px;
+    /* ?: 70px; */
+    /* t?op: 38px; */
+    margin: 38px 0 0 70px;
+    border-radius: 0px;
+
+}
+
+.img-div {
+    background-color: white;
+    width: 50%;
+    clip-path: polygon(0% 100%, 81% 100%, 110% 0%, 0% 0%);
+}
+
+.header-content-wrapper {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.blank-div {
+    height: 72px;
+    width: 100%;
+    background-color: white;
+}
+
+.font-style-header {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 2.8vw;
+    line-height: 44px;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #133F7D;
+}
+
+.font-style {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: black
+}
+
+.content-div {
+    height: 24%;
+    width: 100%;
+    background-color: #133F7D;
+    padding: 10px 10px 10px 9%;
+    clip-path: polygon(100% 100%, 0% 100%, 10% 0%, 100% 0%);
+}
+
+.content-div-span {
+    margin-left: 15%;
+}
+
+.btn-g {
+    background-color: #3A992B;
+    color: white;
+    font-family: Manrope;
+    font-size: 15px;
+    text-align: center;
+    height: 35px;
+    width: 78px;
+    margin-right: 106px;
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: #3A992B;
+
+}
+
+.report-wrapper {
+    background-color: #F5F5F5;
+}
+
+.section {
+    display: flex;
+
+    position: relative;
+    justify-content: space-between;
+}
+
+.tech-details-wrapper {
+    display: flex;
+    width: 50%;
+}
+
+.tech-details {
+    width: 50%;
+    position: absolute;
+    top: 36%;
+    left: 2%;
+}
+
+.profile {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 30px;
+}
+
+.font-syle-profile {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.font-style-profile-span {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #626262;
+}
+
+.profile-details {
+    position: absolute;
+    top: 77%;
+    left: 21%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7px;
+}
+
+.profile-details-p1 {
+    color: #626262;
+}
+
+.profile-details-p2 {
+    color: #133F7D;
+    font-weight: 1000;
+    font-size: 16px;
+}
+
+.profile-details-p3 {
+    color: #000000;
+    font-weight: 600;
+}
+
+.proxy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.proxy-chart-wrapper {
+    width: 100%;
+    background: #E7EBFB;
+    border-top-right-radius: 76px;
+    border-bottom-right-radius: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+
+.proxy-rating-span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.proxy-title-wrapper {
+    background: #E7EBFB;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.proxy-title {
+    padding: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5vw;
+    line-height: 33px;
+    text-align: center;
+    color: #EC2D38;
+}
+
+.arrow-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 25px;
+    margin-top: 27px;
+}
+
+.arrow-img {
+    position: relative;
+    right: 22%;
+    width: 6%;
+
+}
+
+.recommendation {
+    display: flex;
+    margin-top: 5px;
+}
+
+.recommendation-span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.6vw;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.recommendation-div {
+    width: 27%;
+    height: 46px;
+    display: table;
+    border-radius: 13px;
+    position: absolute;
+    bottom: 50;
+}
+
+.red {
+    background-color: #E96F68;
+    left: 10%;
+    z-index: 2;
+}
+
+.yellow {
+    left: 35%;
+    background: #F5E659;
+    z-index: 1;
+}
+
+.green {
+    margin-left: 59%;
+    z-index: 0;
+    background: #61BE52;
+}
+
+.candidate-overall-skills {
+    display: flex;
+    margin-top: 88px;
+}
+
+.candidate-skills-wrapper {
+    padding-top: 10px;
+    justify-content: center;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 76px 0px 0px 76px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.candidate-skills {
+    margin: auto;
+    width: 330px;
+    margin-top: 40px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.candidate-skills-heading {
+    display: flex;
+    justify-content: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8vw;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    color: #133F7D;
+}
+
+
+.overAll-skills-header {
+    width: 105%;
+    clip-path: polygon(0 2%, 19% 197%, 353% 0%, 0% 0%);
+    position: relative;
+    right: 6%;
+    background-color: #133F7D;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    display: flex;
+    padding-top: 10px;
+}
+
+.overAll-skills {
+    width: 50%;
+}
+
+.overAll-skills-span {
+    margin-right: 10%;
+}
+
+
+
+
+
+.toplayer-ellip-div {
+    padding-top: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.toplayer-ellip-title {
+    margin: 2.5px 5px;
+    font-weight: 600;
+}
+
+.toplayer-ellip-percent {
+    margin: 2.5px 5px;
+    font-weight: 600;
+    color: #133F7D;
+}
+
+.font-style-percent {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+
+.vector-wrapper {
+    display: flex;
+    position: relative;
+    bottom: 22px;
+    justify-content: center;
+
+}
+
+.vector-tl-div {
+    width: 40%;
+}
+
+
+.vector-center-div {
+    display: flex;
+    margin-top: 41px;
+    justify-content: center;
+    width: 100%;
+}
+
+.vector-center {
+    margin-top: 82px;
+    width: 170px;
+}
+
+.secondlayer-ellip {
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    /* width: 80%; */
+}
+
+.secondlayer-ellip-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: red;
+    /* width: 20%; */
+}
+
+.secondlayer-ellip-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ellip-layer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+
+.soft-phychological-skills {
+    background-color: #F5F5F5;
+    margin-top: 60px;
+    display: flex;
+}
+
+.marking-1 {
+    position: absolute;
+    top: 17%;
+    left: 103%;
+}
+
+.marking-2 {
+    position: absolute;
+    top: 49%;
+    left: 103%;
+    width: 100%;
+}
+
+.marking-3 {
+    position: absolute;
+    top: 80%;
+    left: 101%;
+}
+
+.m1-img {
+    position: absolute;
+    top: 22%;
+    left: 60%;
+    width: 45%;
+}
+
+.m2-img {
+    position: absolute;
+    top: 53%;
+    left: 85%;
+    width: 20%;
+}
+
+.m3-img {
+    position: absolute;
+    top: 85%;
+    left: 79%;
+    width: 26%;
+}
+
+.marking-font-style {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    margin-left: 15px;
+
+}
+
+.marking-rating-span {
+    color: #133F7D;
+}
+
+.soft-skills-wrapper {
+    margin-right: 10px;
+    width: 100%;
+    justify-content: center;
+    /* height: 371px; */
+}
+
+.soft-skills-graph-wrapper {
+    background-color: #E7EBFB;
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+}
+
+.soft-skills-div {
+    clip-path: polygon(0% 0%, 85% 0%, 100% 100%, 100% 100%, 0% 100%);
+    background-color: #133F7D;
+    padding: 10px 10px 10px 14%;
+}
+
+.soft-skills-span {
+    color: white;
+    background-color: #133F7D;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8vw;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+}
+
+.soft-skills {
+    position: relative;
+    width: 60%;
+}
+
+.phychological-skills-wrapper {
+    margin-left: 10px;
+    width: 100%;
+
+}
+
+.phychological-skills-div {
+    background-color: #133F7D;
+    clip-path: polygon(4% 0%, 16% 100%, 100% 100%, 100% 0%);
+    position: relative;
+    width: 119%;
+    right: 19%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.psychological-skills-span {
+    color: white;
+    background-color: #133F7D;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8vw;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+
+    margin: 10px 8% 10px 10px
+}
+
+.screenshots-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.marking-1-phy {
+    position: absolute;
+    top: 17%;
+    left: 103%;
+}
+
+.marking-2-phy {
+    position: absolute;
+    top: 49%;
+    left: 103%;
+    width: 34%;
+}
+
+.marking-3-phy {
+    position: absolute;
+    top: 80%;
+    left: 101%;
+}
+
+.m1-img-phy {
+    position: absolute;
+    top: 22%;
+    left: 60%;
+    width: 45%;
+}
+
+.m2-img-phy {
+    position: absolute;
+    top: 53%;
+    left: 81%;
+    width: 25%;
+}
+
+.m3-img-phy {
+    position: absolute;
+    top: 85%;
+    left: 79%;
+    width: 26%;
+}
+
+.profilepic {
+    width: 90%;
+}
+
+.rating-button {
+    border-radius: 13px;
+    margin: 10px !important;
+    padding: 20px !important;
+}
+
+.rating-arrow {
+    border: 1.5px solid #133F7D;
+    height: 100%;
+    width: 10px;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.rating-arrow-tab {
+    top: 80%;
+    width: 35px;
+    height: 25px;
+    position: absolute;
+}
+
+.rating-name {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.mobile-recommendation-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+.recommendation-title {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #626262;
+}
+
+@media only screen and (max-width: 700px) {
+    .proxy-chart-img {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .proxy-chart {
+        width: 90%;
+        justify-content: center;
+    }
+}
+
+
+
+@media only screen and (max-width: 900px) {
+    .candidate-skills-wrapper {
+        align-content: center !important;
+        align-items: center !important;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+        border-radius: 76px !important;
+        transform: matrix(-1, 0, 0, 1, 0, 0)
+    }
+
+    .candidate-skills {
+        margin-top: 6px;
+    }
+
+    .overAll-skills-header {
+        clip-path: none !important;
+        justify-content: center;
+        display: flex;
+        right: 0% !important;
+        width: 100% !important;
+    }
+
+    .overAll-skills-span {
+        margin-right: 0% !important;
+    }
+
+    .overAll-skills {
+        width: 100% !important;
+        margin-top: 30px !important;
+        justify-content: center !important;
+    }
+
+    .profilepic {
+        width: 95%;
+    }
+
+    .vector-center {
+        margin-top: 96px;
+        width: 186px;
+    }
+
+    .profile-details {
+        top: 76%;
+        left: 16%;
+    }
+
+    .font-style-profile-span {
+        font-size: 1.8vw;
+    }
+
+    .font-syle-profile {
+        font-size: 1.8vw;
+    }
+
+    .tech-details {
+        width: 21%;
+    }
+
+    .vector-tl-div {
+        width: 30%;
+    }
+
+    .toplayer-ellip-img {
+        width: 50%;
+    }
+
+    .font-style-percent {
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: center;
+        letter-spacing: 0.04em;
+    }
+
+    .soft-skills-div {
+        width: 40%;
+        margin-bottom: 20px;
+    }
+
+    .phychological-skills-wrapper {
+        width: 100%;
+        margin-left: 0px !important;
+        justify-content: flex-end;
+
+    }
+
+    .phychological-skills-div {
+        background-color: #133F7D;
+        width: 40% !important;
+        right: 0% !important;
+        margin: 20px;
+        left: 58%;
+    }
+
+    .soft-skills {
+        width: 50% !important;
+        right: 6%;
+    }
+
+    .marking-2 {
+        width: 0% !important;
+    }
+
+    .soft-skills-graph-wrapper {
+        display: flex !important;
+        justify-content: center !important;
+    }
+
+    .desktop-veiw {
+        display: none;
+    }
+
+    .tech-details {
+        top: 70% !important;
+        left: 18%;
+    }
+
+    .profile-details {
+        top: 70% !important;
+        left: 62%;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .tab-view {
+        display: none !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .mobile-view-recommendation {
+        display: none !important;
+    }
+
+    .mobile-view-profile {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .profile-details {
+        right: 6%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .tab-view {
+        display: none !important;
+    }
+
+    .profilepic {
+        width: 100%;
+    }
+
+    .font-syle-profile {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+        color: #626262;
+    }
+
+    .tab-veiw-reccomendation {
+        display: none;
+    }
+
+    .img-logo {
+        margin: 0px !important;
+        width: 100% !important;
+        margin-top: 0px !important;
+    }
+
+    .content-div {
+        padding: 0px 0px 0px 46% !important;
+        clip-path: polygon(100% 100%, 0% 100%, 15% 0%, 100% 0%);
+    }
+
+    .content-div-span {
+        margin-left: -55px !important;
+    }
+
+    .img-div {
+        clip-path: polygon(0% 100%, 13% 100%, 166% 0%, 0% 0%) !important;
+    }
+
+    .soft-skills-span {
+        font-size: 16px;
+    }
+
+    .font-style-header {
+        font-size: 16px !important;
+    }
+
+    .psychological-skills-span {
+        font-size: 16px !important;
+    }
+
+    .vector-center {
+        margin-top: 89px;
+        width: 195%;
+    }
+
+    .vector-wrapper {
+        bottom: 13px;
+    }
+
+    .phychological-skills-div {
+        left: 55%;
+    }
+
+    .soft-skills {
+        right: 18%;
+    }
+
+    .phychological-skills-div {
+        left: 39%;
+    }
+
+    .phychological-skills-div {
+        width: 55% !important;
+    }
+
+    .proxy-chart-wrapper {
+        border-radius: 20px !important;
+        width: 70%;
+    }
+
+    .proxy-chart {
+        width: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .proxy-title {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .proxy-title-wrapper {
+        width: 70%;
+        display: flex;
+    }
+
+    .proxy-rating-span {
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 16px;
+        margin-top: 6px;
+    }
+
+    .proxy {
+        align-items: center;
+    }
+
+    .proxy-chart-img {
+        width: 40%;
+    }
+
+    .recommendation-div {
+        height: 16px;
+        width: 32%;
+    }
+
+    .red {
+        left: 6%;
+    }
+
+    .arrow-img {
+        right: 16%;
+    }
+
+    .soft-skills-div {
+        padding: 0px 10px 0px 14% !important;
+    }
+
+    .psychological-skills-span {
+        margin: 0px 8% 0px 10px !important;
+    }
+
+    .overAll-skills-header {
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+
+    .btn-g {
+        margin-right: 10px !important;
+        height: 35px;
+        width: 50%;
+        font-size: 18px;
+
+    }
+
+    .font-style-profile-span {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #626262;
+    }
+
+    .candidate-overall-skills {
+        display: flex;
+        margin-top: 40px;
+    }
+
+    .info-div {
+        display: flex;
+        margin: 20px 10px;
+        justify-content: start;
+    }
+
+    .blank-div {
+        height: 110px;
+    }
+}

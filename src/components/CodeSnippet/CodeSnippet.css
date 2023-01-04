@@ -1,0 +1,261 @@
+.font-styling-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 34px; */
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+@media only screen and (max-width: 1200px) {
+    .font-styling-text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .font-styling-text {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .font-styling-text {
+        font-size: 20px;
+    }
+}
+
+.font-style-header-code-snippet {
+    font-family: 'Manrope';
+    background-color: #133F7D;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2vw;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .font-style-header-code-snippet {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .font-style-header-code-snippet {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .font-style-header-code-snippet {
+        font-size: 5vw;
+    }
+}
+
+
+.code-snippet-wrapper {
+    background-color: #F5F5F5;
+    padding-bottom: 20px;
+}
+
+.code-snippet-header {
+    background-color: #133F7D;
+    color: white;
+    margin-top: 24px;
+    /* padding-top: 5px; */
+    clip-path: polygon(0% 0%, 85% 0%, 100% 100%, 100% 100%, 0% 100%);
+    width: 45%;
+    /* padding-bottom: 5px; */
+    padding: 10px 10px 10px 7%;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .code-snippet-header {
+        width: 100%;
+        clip-path: none;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.code-snippet-span {
+    font-weight: 600;
+    font-family: 'Manrope';
+    background-color: #133F7D;
+    font-style: normal;
+    font-size: 2.8vw;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1200px) {
+    .code-snippet-span {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .code-snippet-span {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .code-snippet-span {
+        font-size: 5vw;
+    }
+}
+
+.code-content {
+    background: #D9D9D9;
+    border-radius: 50px;
+    margin: 24px 24px 12px 24px;
+    padding: 40px 60px 40px 89px;
+}
+
+@media only screen and (max-width: 600px) {
+    .code-content {
+        padding: 7% 0% 7% 7%;
+    }
+}
+
+.code-content-pre {
+    overflow: auto;
+    width: 100%;
+}
+
+.final-remark-wrapper {
+    margin: 24px 40px;
+    padding: 10px;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .final-remark-wrapper {
+        display: block;
+        margin: 10px;
+    }
+}
+
+.vertical-left-header {
+    background-color: #133F7D;
+    min-height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .vertical-left-header {
+        display: none !important;
+    }
+}
+
+.final-remark-header {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+.final-remark-header-600 {
+    display: none !important;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .final-remark-header-600 {
+        display: block !important;
+    }
+}
+
+
+.final-remark-content {
+    background-color: white;
+    padding-left: 10px;
+}
+
+.final-remark-content-span {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    padding: 20px;
+}
+
+.screenshots-wrapper {
+    margin: 12px 24px 0px 24px;
+    padding-top: 20px;
+
+}
+
+@media only screen and (max-width: 600px) {
+    .screenshots-wrapper {
+        margin: 0px;
+    }
+}
+
+.screenshots-header {
+    background-color: #133F7D;
+    padding: 10px 10px 10px 7%;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 100%, 100% 100%, 0% 100%);
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .screenshots-header {
+        width: 95%;
+        clip-path: none;
+        justify-content: center;
+        display: flex;
+        padding: 10px;
+    }
+}
+
+.screenshots-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .screenshots-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+/* 
+
+*/
+.screenshots {
+    height: 100%;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-logo {
+    height: 69px;
+    margin: auto;
+    width: 98px;
+
+}
+
+.screenshot-wrapper {
+    padding-top: 20px;
+    position: relative;
+}
+
+.fill-img1 {
+    top: 4%;
+    left: 12%;
+    position: absolute;
+    width: 76%;
+    height: 91%;
+}

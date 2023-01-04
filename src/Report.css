@@ -1,0 +1,600 @@
+.header {
+    display: flex;
+}
+
+
+.img-logo {
+    height: 114px;
+    width: 190px;
+    /* ?: 70px; */
+    /* t?op: 38px; */
+    margin: 38px 0 0 70px;
+    border-radius: 0px;
+
+}
+
+.img-div {
+    background-color: white;
+    width: 50%;
+    clip-path: polygon(0% 100%, 81% 100%, 110% 0%, 0% 0%);
+}
+
+.header-content-wrapper {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.blank-div {
+    height: 72px;
+    width: 100%;
+    background-color: white;
+}
+
+.font-style-header {
+    font-family: 'Manrope';
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #133F7D;
+}
+
+.font-style {
+    font-family: 'Manrope';
+    font-weight: 400;
+    font-size: 14px;
+    font-style: normal;
+    letter-spacing: 0.04em;
+    color: black
+}
+
+.content-div {
+    height: 24%;
+    width: 100%;
+    background-color: #133F7D;
+    padding: 10px 10px 10px 9%;
+    clip-path: polygon(100% 100%, 0% 100%, 10% 0%, 100% 0%);
+}
+
+.content-div-span {
+    margin-left: 15%;
+}
+
+.btn-g {
+    background-color: #3A992B;
+    color: white;
+    font-family: Manrope;
+    font-size: 15px;
+    text-align: center;
+    height: 35px;
+    width: 78px;
+    margin-right: 106px;
+    margin-top: 22px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+    border: 1px solid;
+    border-radius: 7px;
+    border-color: #3A992B;
+
+}
+
+.report-wrapper {
+    background-color: #F5F5F5;
+}
+
+.section {
+    display: flex;
+
+    position: relative;
+    justify-content: space-between;
+}
+
+.tech-details-wrapper {
+    display: flex;
+    width: 50%;
+}
+
+.tech-details {
+    width: 50%;
+    position: absolute;
+    top: 36%;
+    left: 11%;
+}
+
+.profile {
+    position: relative;
+    left: 40%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 30px;
+}
+
+/* .profilepic {
+    /* margin: auto; */
+
+
+.font-syle-profile {
+
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.font-style-profile-span {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    color: #626262;
+}
+
+.profile-details {
+    position: absolute;
+    top: 79%;
+    left: 26%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-details-p1 {
+    color: #626262;
+}
+
+.profile-details-p2 {
+    color: #133F7D;
+    font-weight: 1000;
+    font-size: 16px;
+}
+
+.profile-details-p3 {
+    color: #000000;
+
+    font-weight: 600;
+}
+
+.proxy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
+    margin-top: 32px;
+}
+
+.proxy-chart-wrapper {
+    width: 80%;
+    background: #E7EBFB;
+    border-top-left-radius: 76px;
+    border-bottom-left-radius: 76px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+
+/* 
+.proxy-chart {
+    width: 48%;
+    margin: auto;
+} */
+
+.proxy-rating-span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000000;
+}
+
+.proxy-title-wrapper {
+    /* position: absolute; */
+    background: #E7EBFB;
+    width: 80%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.proxy-title {
+
+    padding: 10px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 33px;
+
+    text-align: center;
+
+    color: #EC2D38;
+}
+
+.arrow-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 25px;
+    margin-top: 27px;
+}
+
+.arrow-img {
+    position: relative;
+    right: 22%;
+
+}
+
+.recommendation {
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 5px;
+}
+
+.recommendation-span {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    display: table-cell;
+    vertical-align: middle;
+    color: #FFFFFF;
+}
+
+.recommendation-div {
+    width: 27%;
+    height: 46px;
+    display: table;
+    border-radius: 13px;
+    position: absolute;
+    bottom: 50;
+}
+
+.red {
+    background-color: #E96F68;
+    left: 10%;
+    z-index: 2;
+}
+
+.yellow {
+    left: 35%;
+    background: #F5E659;
+    z-index: 1;
+}
+
+.green {
+    margin-left: 60%;
+    z-index: 0;
+    background: #61BE52;
+}
+
+.candidate-overall-skills {
+    display: flex;
+    margin-top: 88px;
+}
+
+.candidate-skills-wrapper {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: white;
+    border-top-right-radius: 76px;
+    border-bottom-right-radius: 76px;
+    width: 50%;
+}
+
+.candidate-skills {
+    margin: auto;
+    width: 330px;
+    height: 330px;
+}
+
+.candidate-skills-heading {
+
+    display: flex;
+    justify-content: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    color: #133F7D;
+}
+
+.overAll-skills {
+    width: 50%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.overAll-skills-span {
+    margin-right: 10%;
+}
+
+.overAll-skills-header {
+    width: 105%;
+    clip-path: polygon(0 2%, 19% 197%, 353% 0%, 0% 0%);
+    position: relative;
+    right: 6%;
+    background-color: #133F7D;
+    padding-bottom: 10px;
+    justify-content: flex-end;
+    display: flex;
+    padding-top: 10px;
+}
+
+
+
+.toplayer-ellip-div {
+    padding-top: 25px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.toplayer-ellip-title {
+    margin: 2.5px 5px;
+    font-weight: 600;
+}
+
+.toplayer-ellip-percent {
+    margin: 2.5px 5px;
+    font-weight: 600;
+    color: #133F7D;
+}
+
+.font-style-percent {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+}
+
+.vector-wrapper {
+    display: flex;
+
+    position: relative;
+    bottom: 10px;
+    justify-content: center;
+
+}
+
+.vector-tl-div {
+    width: 25%;
+}
+
+.vector-tr-div {
+    /* width: 505; */
+}
+
+.vector-center-div {
+    display: flex;
+
+    margin-top: 41px;
+    justify-content: center;
+}
+
+.vector-center {
+    margin-top: 41px;
+}
+
+.secondlayer-ellip {
+
+    position: relative;
+    bottom: 10px;
+    /* padding: 32px 140px; */
+    /* margin-top: 20px; */
+    display: flex;
+    justify-content: center;
+}
+
+.secondlayer-ellip-left {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.secondlayer-ellip-right {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ellip-layer-wrapper {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.soft-phychological-skills {
+    background-color: #F5F5F5;
+    margin-top: 60px;
+    display: flex;
+}
+
+.marking-1 {
+    position: absolute;
+    top: 17%;
+    left: 103%;
+}
+
+.marking-2 {
+    position: absolute;
+    top: 49%;
+    left: 103%;
+    width: 100%;
+}
+
+.marking-3 {
+    position: absolute;
+    top: 80%;
+    left: 101%;
+}
+
+.m1-img {
+    position: absolute;
+    top: 22%;
+    left: 60%;
+}
+
+.m2-img {
+    position: absolute;
+    top: 53%;
+    left: 81%;
+}
+
+.m3-img {
+    position: absolute;
+    top: 85%;
+    left: 79%;
+}
+
+.marking-font-style {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    /* or 140% */
+
+    letter-spacing: 0.04em;
+
+    color: #000000;
+}
+
+.marking-rating-span {
+    color: #133F7D;
+}
+
+.soft-skills-wrapper {
+    margin-right: 10px;
+    width: 50%;
+    /* height: 371px; */
+}
+
+.soft-skills-graph-wrapper {
+    background-color: #E7EBFB;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+}
+
+.soft-skills-div {
+    clip-path: polygon(0% 0%, 85% 0%, 100% 100%, 100% 100%, 0% 100%);
+    background-color: #133F7D;
+    padding: 10px 10px 10px 14%;
+}
+
+.soft-skills-span {
+    color: white;
+    background-color: #133F7D;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    letter-spacing: 0.04em;
+}
+
+.soft-skills {
+    position: relative;
+    width: 50%;
+    margin: auto;
+}
+
+.phychological-skills-wrapper {
+    margin-left: 10px;
+    width: 50%;
+    /* height: 371px; */
+}
+
+.phychological-skills-div {
+    background-color: #133F7D;
+    clip-path: polygon(4% 0%, 16% 100%, 100% 100%, 100% 0%);
+    position: relative;
+    width: 119%;
+    right: 19%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.psychological-skills-span {
+    color: white;
+    background-color: #133F7D;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    letter-spacing: 0.04em;
+
+    margin: 10px 8% 10px 10px
+}
+
+.psychological-skills {
+    /* width: 319px;
+    height: 319px; */
+}
+
+
+
+.marking-1-phy {
+    position: absolute;
+    top: 17%;
+    left: 103%;
+}
+
+.marking-2-phy {
+    position: absolute;
+    top: 49%;
+    left: 103%;
+    width: 34%;
+}
+
+.marking-3-phy {
+    position: absolute;
+    top: 80%;
+    left: 101%;
+}
+
+.m1-img-phy {
+    position: absolute;
+    top: 22%;
+    left: 60%;
+}
+
+.m2-img-phy {
+    position: absolute;
+    top: 53%;
+    left: 81%;
+}
+
+.m3-img-phy {
+    position: absolute;
+    top: 85%;
+    left: 79%;
+}

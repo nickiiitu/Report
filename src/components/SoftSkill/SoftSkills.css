@@ -1,0 +1,269 @@
+.wrapper {
+    background: #F5F5F5;
+}
+
+.font-style-soft-skill {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+
+@media only screen and (max-width: 1200px) {
+    .font-style-soft-skill {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .font-style-soft-skill {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .font-style-soft-skill {
+        font-size: 20px;
+    }
+}
+
+/* 
+.font-style-phy-p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    width: 85%;
+} */
+
+.font-style-header-soft-skill {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2vw;
+    line-height: 44px;
+    /* text-align: center; */
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #133F7D;
+}
+
+@media only screen and (max-width: 1200px) {
+    .font-style-header-soft-skill {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .font-style-header-soft-skill {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .font-style-header-soft-skill {
+        font-size: 5vw;
+    }
+}
+
+
+.soft-skill-wrapper {
+    margin: 24px 40px;
+    padding: 10px;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .soft-skill-wrapper {
+        display: block;
+        margin: 10px;
+    }
+}
+
+.soft-skill-header {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+.soft-skill-header-600 {
+    display: none !important;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .soft-skill-header-600 {
+        display: block !important;
+    }
+}
+
+
+.soft-skill-content {
+    /* width: 90%; */
+    padding-left: 22px;
+    background: white;
+}
+
+.soft-skill-header-outer {
+    background-color: #133F7D;
+    min-height: 300px;
+}
+
+@media only screen and (max-width: 600px) {
+    .soft-skill-header-outer {
+        display: none !important;
+    }
+}
+
+.soft-skill-header-inner {
+    padding: 50% 0;
+    margin: 0;
+}
+
+.psycological-skill-wrapper {
+    margin: 24px 40px;
+    padding: 10px;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .psycological-skill-wrapper {
+        display: block !important;
+        margin: 10px;
+    }
+}
+
+
+.psycological-skill-content {
+    padding: 15px 10px 22px 10px;
+    background-color: white;
+    /* position: relative; */
+}
+
+.psycological-skill-header-outer {
+    background-color: #133F7D;
+    min-height: 350px;
+}
+
+
+@media only screen and (max-width: 600px) {}
+
+.psycological-skill-header {
+    transform: rotate(90deg);
+    white-space: nowrap;
+}
+
+.psycological-skill-header-600 {
+    display: none !important;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .psycological-skill-header-outer {
+        display: none !important;
+    }
+
+    .psycological-skill-header-600 {
+        display: block !important;
+    }
+}
+
+/* @media only screen and (max-width: 600px) {
+    .phycological-skill-header-600 {
+        display: block !important;
+    }
+} */
+
+.screening-ques-wrapper {
+    margin: 24px 0px;
+    background-color: #F5F5F5;
+    padding-bottom: 1px;
+}
+
+.font-style-header-screening {
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.8vw;
+    line-height: 44px;
+    /* text-align: center; */
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+@media only screen and (max-width: 1200px) {
+    .font-style-header-screening {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .font-style-header-screening {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .font-style-header-screening {
+        font-size: 5vw;
+    }
+}
+
+.screening-ques-header {
+    background-color: #133F7D;
+    padding: 10px 10px 10px 7%;
+    text-align: left;
+    clip-path: polygon(0% 0%, 85% 0%, 100% 100%, 100% 100%, 0% 100%);
+    width: 45%;
+}
+
+@media only screen and (max-width: 900px) {
+    .screening-ques-header {
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .screening-ques-header {
+        width: 100%;
+        clip-path: none;
+        display: flex;
+        justify-content: center;
+
+    }
+}
+
+.ques-ans-wrapper {
+    margin: 40px;
+}
+
+.ques {
+    background: #CADFF5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 15px;
+    width: 70%;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .ques {
+        width: 85%;
+    }
+}
+
+.ans {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    background-color: white;
+    padding-left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-right: 15px;
+}

@@ -1,0 +1,216 @@
+.feedback-wrapper {
+    background-color: #f5f5f5;
+}
+
+.feedback-header {
+    padding-top: 40px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.8vw;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #133F7D;
+}
+
+@media only screen and (max-width: 1200px) {
+    .feedback-header {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .feedback-header {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .feedback-header {
+        font-size: 7vw;
+    }
+}
+
+
+
+.font-style-detailed-text {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+    color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+    .font-style-detailed-text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .font-style-detailed-text {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .font-style-detailed-text {
+        font-size: 20px;
+    }
+}
+
+
+.font-style-header-detailed {
+    font-family: 'Manrope';
+    background-color: #133F7D;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.2vw;
+    line-height: 44px;
+    letter-spacing: 0.04em;
+    color: white;
+}
+
+@media only screen and (max-width: 1200px) {
+    .font-style-header-detailed {
+        font-size: 3.5vw;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .font-style-header-detailed {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .font-style-header-detailed {
+        font-size: 5vw;
+    }
+}
+
+
+.mandatory-skills-wrapper {
+    margin: 24px 40px;
+    background-color: white;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .mandatory-skills-wrapper {
+        display: block;
+        margin: 10px;
+    }
+}
+
+.mandatory-skills-outer-wrapper {
+    background-color: #133F7D;
+    min-height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+    .mandatory-skills-outer-wrapper {
+        display: none !important;
+    }
+}
+
+.title-1 {
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+
+.title-600 {
+    padding: 10px;
+    display: none !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .title-600 {
+        display: block !important;
+        padding: 5px;
+    }
+}
+
+.mandatory-skills-content {
+    padding: 10px 10px;
+    padding-left: 30px;
+}
+
+.opyional-skills-wrapper {
+    background-color: white;
+    margin: 24px 40px;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .opyional-skills-wrapper {
+        display: block;
+        margin: 10px;
+    }
+}
+
+.opyional-skills-content {
+    padding-left: 30px;
+    width: 90%;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .opyional-skills-content {
+        width: 100%;
+    }
+}
+
+.optional-skills-outer-wrapper {
+    background-color: #133F7D;
+    min-height: 400px;
+}
+
+.optional-skills-outer-wrapper-600 {
+    display: none !important;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .optional-skills-outer-wrapper {
+        display: none !important;
+    }
+
+    .optional-skills-outer-wrapper-600 {
+        display: block !important;
+        padding: 5px;
+    }
+}
+
+.optional-skills-header {
+    transform: rotate(90deg);
+    white-space: nowrap;
+}
+
+.container-1 {
+    border: 2px solid red;
+    display: flex;
+    height: 400px;
+    width: 100%;
+}
+
+.con-1 {
+    border: 2px solid blue;
+    height: 100%;
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.con-2 {
+    border: 2px solid green;
+    height: 100%;
+    width: 85%;
+}
